@@ -1,0 +1,50 @@
+.hero {
+    width: 100%;
+    height: 35rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items:  flex-start;
+    justify-content: center;
+
+    font-weight: 500;
+
+    background-image: linear-gradient(to bottom right, #5d2234, black) ;
+}
+
+.hero-text {
+    
+    font-size: 5rem;
+
+    width: 90%;
+
+    padding-left: 0.5em;
+}
+
+.hero-text div {
+    transition-duration: 0.25s;
+}
+
+.hero-text div:hover {
+
+    text-shadow: 0 0 5px white;
+
+    transition-duration: 0.5s;
+}
+
+.hero-offset {
+    padding-left: 2em;
+    font-weight: 600;
+}
+
+.consolas {
+    font-family: "Consolas", Courier, monospace;
+    font-size: 1.5rem;
+}
+
+.Typewriter {
+    width: 50%;
+    display: inline;
+}
+
