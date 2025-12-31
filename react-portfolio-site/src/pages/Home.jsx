@@ -9,13 +9,13 @@ function Home() {
     return (
 
 
-        <><Navbar></Navbar>
+        <>
         <div className="hero">
             <div className="hero-text">
             <div className="consolas">Hi, my name is</div>
             <div>David Cooney</div>
             <div className="hero-offset movable">
-                <Typewriter options={{ strings: ['Java', 'Python', 'PyTorch', 'React', 'Vue.js' ],
+                <Typewriter options={{ strings: ['Java', 'Python', 'PyTorch', 'React', 'Vue.js', 'SQL' ],
                             autoStart: true,
                             loop: true, 
                             pauseFor: 2000}} />
